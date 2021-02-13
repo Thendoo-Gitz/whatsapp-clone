@@ -1,0 +1,99 @@
+.ChatSection {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.ChatSectionHeader {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.ChatSectionHeaderInfo {
+  padding-left: 9px;
+  flex: 1;
+}
+
+.ChatSectionHeaderInfo > p {
+  font-weight: 100;
+}
+
+.ChatSectionHeaderInfo > h3 {
+  font-weight: 500;
+}
+
+.ChatSectionHeaderRight {
+  font-size: 10px;
+}
+
+.ChatBody {
+  background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+  flex: 1;
+  overflow: scroll;
+  padding: 30px;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.ChatMessage {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  width: fit-content;
+}
+
+.Received {
+  background-color: rgba(220, 248, 198, 255);
+  margin-left: auto;
+}
+
+.ChatBodyTimestamp {
+  font-size: xx-small;
+  margin-left: 10px;
+}
+
+.ChatBodyName {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: xx-small;
+}
+
+.ChatFooter {
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+  height: 70px;
+  border-top: 1px solid lightgray;
+}
+
+.ChatFooter > form {
+  flex: 1;
+  display: flex;
+}
+
+.ChatFooter > form > input {
+  flex: 1;
+  display: flex;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  outline-width: 0;
+}
+
+.ChatFooter > form > button {
+  display: none;
+}
+
+.ChatFooter > .MuiSvgIcon-root {
+  padding: 10px;
+  color: grey;
+}
